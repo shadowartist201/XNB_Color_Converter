@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XNB_Color_Converter": {
+      "commandName": "Project",
+      "commandLineArgs": "* . Context\\"
+    }
+  }
+}
