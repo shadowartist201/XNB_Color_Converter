@@ -17,7 +17,7 @@ for (int i = 0; i < args.Length; i++)
             for (int y = 0; y < temp_img.Height; y++)
             {
                 temp_col = temp_img.GetPixel(x, y);
-                temp_col = Color.FromArgb(temp_col.R, temp_col.G, temp_col.B, temp_col.A);
+                temp_col = Color.FromArgb(temp_col.B, temp_col.G, temp_col.R, temp_col.A);
                 temp_img.SetPixel(x, y, temp_col);
             }
         }
